@@ -36,7 +36,7 @@
 
 #if _MSC_VER > 1000
 #pragma once
-#endif
+#endif /* _MSC_VER ] */
 
 #include <limits.h>
 
@@ -245,5 +245,3 @@ typedef uint64_t  uintmax_t;
 
 
 #endif /* _MSC_STDINT_H_ ] */
-
-#endif /* _MSC_VER ] */
